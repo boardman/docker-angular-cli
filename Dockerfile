@@ -11,4 +11,4 @@ RUN apk update \
   && sed -i -e "s/bin\/ash/bin\/sh/" /etc/passwd
 
 #Angular CLI
-RUN yarn global add @angular/cli@1.7.4
+RUN yarn global add @angular/cli
